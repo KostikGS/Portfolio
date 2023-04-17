@@ -1,5 +1,32 @@
 @charset 'UTF-8';
 
+@media screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+
+  .projetos {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+  }
+}
+
 /* Definindo as cores principais */
 :root {
     --cor-primaria: #c1c1c1;
