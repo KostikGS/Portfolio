@@ -26,17 +26,17 @@
             <div class="projeto">
               <h3>Projeto 1</h3>
               <p>Um site básico de HTML5/CSS3 sobre o sistema operacional Android e suas curiosidades</p>
-              <a href="https://kostikgs.github.io/projeto-android/">Ver projeto</a>
+              <a href="https://kostikgs.github.io/projeto-android/" target="_blank">Ver projeto</a>
             </div>
             <div class="projeto">
               <h3>Projeto 2</h3>
               <p>Site Cordel, com uso de Parallax em imagens</p>
-              <a href="https://kostikgs.github.io/html5/modulo3/d012/">Ver projeto</a>
+              <a href="https://kostikgs.github.io/html5/modulo3/d012/" target="_blank">Ver projeto</a>
             </div>
             <div class="projetox">
               <h3>Projeto 3</h3>
               <p>Site com links para minhas redes sociais, usando iframes, tendo um celular como tela para os sites</p>
-              <a href="https://kostikgs.github.io/projeto-social/">Ver projeto</a>
+              <a href="https://kostikgs.github.io/projeto-social/" target="_blank">Ver projeto</a>
             </div>
           </section>
         <center>
