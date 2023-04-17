@@ -7,7 +7,7 @@
       </head>
       <body>
         <header>
-        <img id="img_redonda" src="imagens/foto_perfil_full.jpg" alt="foto_perfil">
+        <img src="imagens/foto_perfil_full.jpg" alt="foto_perfil">
           <h1>Gabriel Kostik</h1>
           <nav>
             <ul>
@@ -40,10 +40,10 @@
             </div>
           </section>
         <center>
-        <img id="img_redonda" src="imagens/icone-facebook.png" alt="icone-facebook"> <a href="https://www.facebook.com/gabriel.kostik/" target="_blank" rel="external">Facebook</a>
-        <img id="img_redonda" src="imagens/icone-twitter.png" alt="icone-twitter"> <a href="https://twitter.com/GS_Kostik" target="_blank" rel="external">Twitter</a>
-        <img id="img_redonda" src="imagens/icone-linkedin.png" alt="icone-linkedin"> <a href="https://www.linkedin.com/in/gabriel-kostik-3b539b163/" target="_blank" rel="external">Linkedin</a> 
-        <img id="img_redonda" src="imagens/icone-github.png" alt="icone-github"> <a href="https://github.com/KostikGS" target="_blank" rel="external">Github</a> </center>
+        <img src="imagens/icone-facebook.png" alt="icone-facebook"> <a href="https://www.facebook.com/gabriel.kostik/" target="_blank" rel="external">Facebook</a>
+        <img src="imagens/icone-twitter.png" alt="icone-twitter"> <a href="https://twitter.com/GS_Kostik" target="_blank" rel="external">Twitter</a>
+        <img src="imagens/icone-linkedin.png" alt="icone-linkedin"> <a href="https://www.linkedin.com/in/gabriel-kostik-3b539b163/" target="_blank" rel="external">Linkedin</a> 
+        <img src="imagens/icone-github.png" alt="icone-github"> <a href="https://github.com/KostikGS" target="_blank" rel="external">Github</a> </center>
         </main>
         <footer>
           <p><center>Desenvolvido por Gabriel Kostik</center></p>

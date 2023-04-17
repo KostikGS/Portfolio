@@ -41,6 +41,7 @@
   /* Estilo das imagens */
   img {
     max-width: 100%;
+    border-radius: 50%;
   }
   
   /* Estilo do botão */
