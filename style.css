@@ -1,144 +1,89 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
-@media screen and (max-width: 767px) {
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Cabeçalho */
   header {
-    flex-direction: column;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  nav a {
-    display: block;
-    padding: 10px;
-  }
-
-  .projetos {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .btn {
-    display: block;
-    width: 100%;
-  }
-}
-
-/* Definindo as cores principais */
-:root {
-    --cor-primaria: #c1c1c1;
-    --cor-secundaria: #db5f08;
-    --cor-destaque: #e9c46a;
-    --cor-texto: #d1d1d1;
-  }
-
-  body{
-    background-image: url(imagens/fundo-portfolio.png);
-    background-size: cover;
-  }
-  
-  /* Estilo do título */
-  h1 {
-    color: var(--cor-primaria);
-    font-size: 3em;
-    margin-top: 0;
-    margin-bottom: -10px;
-  }
-
-  ul{
-    color: black;
-  }
-  
-  /* Estilo do subtítulo */
-  h2 {
-    color: var(--cor-secundaria);
-    font-size: 2em;
-  }
-  
-  /* Estilo do texto */
-  p {
-    color: var(--cor-texto);
-    font-size: 1.2em;
-    line-height: 1.5em;
-  }
-  
-  /* Estilo das imagens */
-  img {
-    max-width: 100%;
-    border-radius: 50%;
-  }
-  
-  /* Estilo do botão */
-  .btn {
-    display: inline-block;
-    background-color: var(--cor-destaque);
+    background-color: #333;
     color: #fff;
-    font-size: 1.2em;
-    padding: 0.5em 1em;
-    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: #fff;
     text-decoration: none;
-    margin-top: 1em;
+    margin-right: 20px;
   }
   
-  /* Estilo do link */
-  a {
-    color: var(--cor-destaque);
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
+  nav a:hover {
+    text-decoration: underline;
   }
   
-  a:hover {
-    color: var(--cor-secundaria);
+  /* Seções */
+  section {
+    padding: 50px;
   }
   
-  /* Estilo da seção de projetos */
+  h2 {
+    margin-top: 0;
+  }
+  
   .projetos {
-    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
   }
   
-  /* Estilo dos projetos */
   .projeto {
-    border: 1px solid var(--cor-primaria);
+    background-color: #f4f4f4;
+    padding: 20px;
     border-radius: 5px;
-    padding: 1em;
-    margin-bottom: 1em;
-  }
-
-  .projetox {
-    border: 1px solid var(--cor-primaria);
-    border-radius: 5px;
-    padding: 1em;
-    margin-bottom: 2em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   }
   
-  /* Estilo do título do projeto */
   .projeto h3 {
-    color: var(--cor-primaria);
-  }
-
-  .projetox h3 {
-    color: var(--cor-primaria);
+    margin-top: 0;
   }
   
-  /* Estilo da descrição do projeto */
   .projeto p {
-    color: var(--cor-texto);
+    margin-bottom: 0;
   }
   
-  /* Estilo do link do projeto */
   .projeto a {
-    color: var(--cor-destaque);
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
   }
   
   .projeto a:hover {
-    color: var(--cor-secundaria);
+    background-color: #666;
   }
-  footer{
-    color: var(--cor-texto);
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
   }
+  
