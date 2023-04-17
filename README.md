@@ -3,7 +3,6 @@
         <meta charset="UTF-8">
         <link rel="shorcut icon" href="imagens/favicon.ico">
         <title>Meu Portfólio</title>
-        <link rel="stylesheet" href="style.css">
       </head>
       <body>
         <header>
