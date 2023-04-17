@@ -1,10 +1,9 @@
 @charset "UTF-8";
 
-/* Estilos básicos */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-  }
+}
   
   /* Cabeçalho */
   header {
@@ -79,11 +78,22 @@ body {
     background-color: #666;
   }
   
-  /* Rodapé */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
+  /* Media Queries para telas menores */
+  @media screen and (max-width: 768px) {
   
+    /* Ajustes para o cabeçalho */
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav {
+      margin-top: 20px;
+    }
+  
+    /* Ajustes para os projetos */
+    .projetos {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+}
