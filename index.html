@@ -7,39 +7,81 @@
         <title>Meu Portfólio</title>
       </head>
       <body>
-        <header>
+        <header class="header-container">
+          <div class="header">
+            <div class="checkbox-container">
+              <div class="checkbox-wrapper">
+                <input type="checkbox" name="" id="toggle">
+                <label class="checkbox" for="toggle">
+                  <div class="trace"></div>
+                  <div class="trace"></div>
+                  <div class="trace"></div>
+                </label>
+                <div class="menu"></div>
+                <nav class="menu-items">
+                  <ul>
+                    <li> <a href="#">Home</a> </li>
+                    <li> <a href="#">Sobre</a> </li>
+                    <li> <a href="#">Projetos</a> </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
           <h1>Gabriel Kostik</h1>
+          <h2>Front-End Developer</h2>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/gabriel-kostik-3b539b163/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/KostikGS" target="_blank">Github</a>
+          </div>
         </header>
-        <main>
-          <section id="sobre">
-            <h2>Sobre mim</h2>
-            <p>Proativo, adaptativo, organizado, analítico, prezo pela qualidade, mas estou aberto para novos desafios. Tenho conhecimento em programação como C, HTML5, CSS3, PHP e Javascript. Conhecimento em frameworks e linguagens NodeJs e Angular. Experiência em ensino de Informática, tento facilidade para explicação e esclarecimento de dúvidas relacionado a área. Conhecimento em pacote Office, Photoshop e Illustrator, programação de jogos, design, modelagem e criação de aplicativos para celular.</p>
-          </section>
-          <section id="projetos" class="projetos">
-            <h2>Projetos</h2>
-            <div class="projeto">
-              <h3>Projeto 1</h3>
-              <p>Um site básico de HTML5/CSS3 sobre o sistema operacional Android e suas curiosidades</p>
-              <a href="https://kostikgs.github.io/projeto-android/" target="_blank">Ver projeto</a>
+        <main class="container">
+          <div class="card-container">
+            <div class="card">
+              <div class="card-wrapper">
+                <h2>Android</h2>
+                <a class="link" href="https://kostikgs.github.io/projeto-android/" target="_blank"><p>Ver projeto</p></a>
+              </div>
             </div>
-            <div class="projeto">
-              <h3>Projeto 2</h3>
-              <p>Site Cordel, com uso de Parallax em imagens</p>
-              <a href="https://kostikgs.github.io/html5/modulo3/d012/" target="_blank">Ver projeto</a>
+            <div class="card-text"> 
+              Um site básico de HTML5/CSS3 sobre o sistema operacional Android e suas curiosidades
             </div>
-            <div class="projeto">
-              <h3>Projeto 3</h3>
-              <p>Site com links para minhas redes sociais, usando iframes, tendo um celular como tela para os sites</p>
-              <a href="https://kostikgs.github.io/projeto-social/" target="_blank">Ver projeto</a>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <div class="card-wrapper">
+                <h2>Cordel</h2>
+                <p><a class="link" href="https://kostikgs.github.io/html5/modulo3/d012/" target="_blank">Veja o projeto!</p></a>
+              </div>
             </div>
-          </section>
-        <center>
-        <img src="imagens/icone-facebook.png" alt="icone-facebook"> <a href="https://www.facebook.com/gabriel.kostik/" target="_blank" rel="external">Facebook</a>
-        <img src="imagens/icone-twitter.png" alt="icone-twitter"> <a href="https://twitter.com/GS_Kostik" target="_blank" rel="external">Twitter</a>
-        <img src="imagens/icone-linkedin.png" alt="icone-linkedin"> <a href="https://www.linkedin.com/in/gabriel-kostik-3b539b163/" target="_blank" rel="external">Linkedin</a> 
-        <img src="imagens/icone-github.png" alt="icone-github"> <a href="https://github.com/KostikGS" target="_blank" rel="external">Github</a> </center>
+            <div class="card-text"> 
+              Site Cordel, com uso de Parallax em imagens
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <div class="card-wrapper">
+                <h2>Redes Sociais</h2>
+                <p><a class="link" href="https://kostikgs.github.io/projeto-social/" target="_blank">Veja o projeto!</p></a> 
+              </div>
+            </div>
+            <div class="card-text"> 
+              Site com links para minhas redes sociais, usando iframes, tendo um celular como tela para os sites
+            </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="card-wrapper">
+                  <h2>Tela de Login</h2>
+                  <p><a class="link" href="https://kostikgs.github.io/projeto-login/" target="_blank">Veja o projeto!</p></a>
+                </div>
+              </div>
+              <div class="card-text"> 
+                Uma tela de login (Mobile First) adaptado para vários tamanhos de telas
+              </div>
+            </div>  
         </main>
-        <footer>
+        <footer class="footer">
           <p><center>&copy; Desenvolvido por Gabriel Kostik</center></p>
         </footer>
     </body>
