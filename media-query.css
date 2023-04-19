@@ -77,6 +77,11 @@
     .card-container {
       width: 100%;
     }
+
+    .link:hover{
+      background-color:#F3F3F3;
+      color: darkgray;
+    }
   
     .card {
       height: 200px;
@@ -92,8 +97,8 @@
   
     .footer {
       margin-top: 20px;
-      height: 30px;
-      font-size: 12px;
+      height: 50px;
+      font-size: 20px;
     }
   }
 }
