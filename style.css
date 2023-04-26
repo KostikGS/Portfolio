@@ -230,6 +230,7 @@ a:hover{
   letter-spacing: 1px;
   color: rgb(73, 72, 72);
   font-weight: bold;
+  font-size: larger;
 }
 
 .link{
@@ -285,6 +286,25 @@ a:hover{
   font-size: 14px;
 }
 
+/*icones das redes sociais*/
+
+#sociais{
+  font-size: large;
+  text-align: center;
+  padding: 30px;
+}
+
+.img{
+  width: 30px;
+
+}
+
+.img:hover{
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.171);
+  transition: transform .8s;
+
+}
 /*Footer*/
 
 .footer{
